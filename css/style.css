@@ -25,10 +25,14 @@ main{
     list-style: none;
 }
 
+.Azioni{
+    position: relative;
+    left: 10px;
+}
 
 aside{
     width: 100px;
-    height: 100vh;
+    height: calc(100vh - 70px);
     background-color: #051e34;
     background-image: url(../img/sidebar-bg.png);
 }
@@ -39,3 +43,16 @@ aside{
 
 
 /* Soluzioni Responsive */
+
+
+@media screen and (min-width:992px) {
+    aside{
+        width: 150px;
+    }
+    .fa-gear{
+        font-size: 1rem;
+    }
+    .main-icons{
+        padding-left: 1rem !important;
+    }
+}
