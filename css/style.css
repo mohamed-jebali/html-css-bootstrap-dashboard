@@ -15,10 +15,15 @@ main{
     height: 100vh;
 }
 
+.main-icons{
+    list-style: none;
+}
+
 aside{
     width: 100px;
     height: 100vh;
     background-color: #051e34;
+    background-image: url(../img/sidebar-bg.png);
 }
 
 .dark-blue-btn-bg{
