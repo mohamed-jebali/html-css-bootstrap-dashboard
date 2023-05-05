@@ -16,14 +16,15 @@
 <body>
     <header>
         <nav class="navbar navbar-light bg-light bg-body-tertiary">
-            <div class="container justify-content-start">
+            <div class="container">
               <a class="navbar-brand " href="#">
                 <img src="./img/mobile-logo.png" class="img-fluid" alt="boolean-logo-mobile" width="30" height="24">
                 <!-- <img  src="./img/logo.svg" class="img-fluid" alt="boolean-logo-full" width="30" height="24"> -->
               </a>
               <form role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              </form>          
+                <input class="form-control me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+              </form>
+              <i class="fa-solid fa-bell px-4 text-warning"></i>       
             </div>
           </nav>
     </header>
@@ -61,7 +62,7 @@
     <main>
                 <!-- UPPER MAIN -->
                 <section class="container-fluid blue-bg py-3">
-                    <div class="row flex-md-row-reverse">
+                    <div class="row flex-md-row-reverse align-items-center">
                         <div class="col-12 col-md-4 text-light mb-2">
                          <span class="pe-3">
                              Nuovo Studente 
@@ -71,7 +72,7 @@
 
                         <div class="col-md-4 order-md-1">
                             <div class="col-12 text-light mb-2">
-                                <span class="pe-1">
+                                <span class="pe-1 fs-4">
                                     Boolean
                                 </span>
                                <span class="badge dark-blue-btn-bg">Piano blaze</span>
@@ -101,16 +102,81 @@
 
                 <!-- SECTION-CARDS -->
                 <section>
-                    <div class="card my-3 mx-3" style="width: 18rem;">
-                        <div class="card-header">
-                          Prossime Classi
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-9">
+                                <div class="card my-3 mx-3" style="width: 18rem;">
+                                    <div class="card-header">
+                                      Prossime Classi
+                                    </div>
+                                    <table class="table">
+                                        <thead>
+                                          <tr>
+                                            <th scope="col">Nome</th>
+                                            <th scope="col">Stato</th>
+                                            <th scope="col">Azioni</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <th scope="row"><img class="img-fluid" src="./img/class-avatar.jpg" alt=""></th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row">2</th>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row">3</th>
+                                            <td colspan="2">Larry the Bird</td>
+                                            <td>@twitter</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                  </div>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <div class="card my-3 mx-3" style="width: 18rem;">
+                                    <div class="card-header">
+                                      Prossime Classi
+                                    </div>
+                                    <table class="table">
+                                        <thead>
+                                          <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">First</th>
+                                            <th scope="col">Last</th>
+                                            <th scope="col">Handle</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <th scope="row">1</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row">2</th>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row">3</th>
+                                            <td colspan="2">Larry the Bird</td>
+                                            <td>@twitter</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                  </div>
+                            </div>
                         </div>
-                        <ul class="list-group list-group-flush">
-                          <li class="list-group-item">An item</li>
-                          <li class="list-group-item">A second item</li>
-                          <li class="list-group-item">A third item</li>
-                        </ul>
-                      </div>
+                    </div>
                 </section>
         </main>
     </div>
