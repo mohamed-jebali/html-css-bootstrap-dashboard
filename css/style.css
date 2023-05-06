@@ -36,8 +36,8 @@ form{
 }
 
 main{
-    width: calc(100% - 100px);
-    height: calc(100vh - 75px);
+    width: calc(100% - 75px);
+    height: calc(100vh - 70px);
 }
 
 header input.form-control input{
@@ -48,6 +48,17 @@ header input.form-control input{
     list-style: none;
 }
 
+
+.fa-plus::before{
+    position: relative;
+    left: -10px;
+}
+.fa-plus{
+    border: 1px solid white;
+    border-radius: .25rem;
+    padding: 1.3rem;
+    width: 10px;
+}
 
 .Azioni{
     position: relative;
