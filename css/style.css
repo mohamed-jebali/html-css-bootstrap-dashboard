@@ -10,28 +10,60 @@
     width: 50px;
 }
 
+.mobile-logo{
+    height: 50px;
+    width: 50px;
+    margin-right: 1rem;
+}
+
+.full-logo{
+    width: 120px;
+    height: 45px;
+}
+
 header{
     height: 70px;
     padding: 0.5rem 0;
     background-color: #f8f9fa;
 }
 
+form{
+    background-color: white;
+}
+
+.form-control{
+    background-color: #e5e5e5;
+}
+
 main{
     width: calc(100% - 100px);
-    height: calc(100vh - 70px);
+    height: calc(100vh - 75px);
+}
+
+header input.form-control input{
+    position: relative;
 }
 
 .main-icons{
     list-style: none;
 }
 
+
 .Azioni{
     position: relative;
     left: 10px;
 }
 
+.form-control::placeholder{
+    content: "ff";
+}
+
+.text-grey{
+    color: #5b5858;
+}
+
 aside{
-    width: 100px;
+    width: 75px;
     height: calc(100vh - 70px);
     background-color: #051e34;
     background-image: url(../img/sidebar-bg.png);
