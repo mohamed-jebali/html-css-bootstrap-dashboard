@@ -24,10 +24,26 @@
                         <img class="full-logo d-none d-lg-inline-block me-3" src="./img/logo.svg" alt="Boolean-logo-full">
                         <input class="form-control" type="search" placeholder="Prova a Cercare Lezioni di Laravel" aria-label="Search">
                         <div class="d-flex gap-4 ps-4">
-                            <i class="fa-solid fa-list-ul text-grey d-none d-lg-inline-block"></i>
-                            <i class="fa-solid fa-circle-question text-grey d-none d-lg-inline-block"></i>
-                            <i class="fa-solid fa-ellipsis-vertical text-grey d-none d-lg-inline-block"></i>
-                            <i class="fa-solid fa-bell text-warning"></i>
+                            <a href="#" class="d-lg-inline-block d-none">
+                                <i class="fa-solid fa-list-ul text-grey"></i>
+                            </a>
+                            <a href="#" class="d-lg-inline-block d-none">
+                                <i class="fa-solid fa-circle-question text-grey"></i>
+                            </a>
+                            <a href="#" class="d-lg-inline-block d-none">
+                                <i class="fa-solid fa-ellipsis-vertical text-grey"></i>
+                            </a>
+
+                            <div class="dropdown">
+                                <a href="#" class="" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-bell text-warning"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><button class="dropdown-item" type="button">Profilo</button></li>
+                                  <li><button class="dropdown-item" type="button">Fatturazione</button></li>
+                                  <li><button class="dropdown-item" type="button">Logout</button></li>
+                                </ul>
+                              </div>
                         </div>
                       </form>
                 </div>
@@ -39,17 +55,29 @@
         <aside class="text-light d-flex flex-column justify-content-between">
             <div class="container d-flex justify-content-center mx-auto">
                 <ul class="main-icons text-center px-0 pt-4">
-                    <li class="mb-3 d-flex">
+                    <li class="mb-0 d-flex">
                         <a href="#" class="text-light"><i class="fa-solid fa-house fa-lg"></i></a>
-                        <span class="d-none d-lg-block px-3">Home</span>
+                        <span class="d-none d-lg-block px-3">
+                            <a href="#">
+                                Home
+                            </a>
+                        </span>
                     </li>
-                    <li class="mb-3 d-flex">
+                    <li class="mb-0 d-flex">
                         <a href="#" class="text-light"><i class="fa-solid fa-chart-simple fa-lg px-1"></i></a>
-                        <span class="d-none d-lg-block px-3">Stats</span>
+                        <span class="d-none d-lg-block px-3">
+                            <a href="#">
+                                Stats
+                            </a>
+                        </span>
                     </li>
-                    <li class="mb-3 d-flex">
+                    <li class="mb-0 d-flex">
                         <a href="#" class="text-light"><i class="fa-solid fa-signal fa-lg"></i></a>
-                        <span class="d-none d-lg-block px-3">Signals</span>
+                        <span class="d-none d-lg-block px-3">
+                            <a href="#">
+                                Signals    
+                            </a>
+                            </span>
                     </li>
                 </ul>
             </div>
@@ -72,7 +100,7 @@
                         <div class="col-12 col-md-4 col-lg-2 text-light mb-2">
                          <span class="pe-3 d-flex align-items-center">
                              Nuovo Studente
-                             <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus fa-xl"></i></button>
+                             <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-lg fa-plus btn btn-outline-light"></i></button>
                          </span>
                         </div>
 

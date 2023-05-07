@@ -48,17 +48,35 @@ header input.form-control input{
     list-style: none;
 }
 
+.main-icons li{
+    padding: .45rem;
+}
 
-.fa-plus::before{
+.main-icons li a{
+    text-decoration: none;
+    color: white;
+    vertical-align: middle;
+}
+
+.main-icons li:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: 0.5s;
+}
+
+.offcanvas{
+    width: 100% !important;
+}
+
+
+/* .fa-plus::before{
     position: relative;
     left: -10px;
-}
-.fa-plus{
-    border: 1px solid white;
-    border-radius: .25rem;
-    padding: 1.3rem;
-    width: 10px;
-}
+} */
+
+
+/* .fa-plus{
+    font-size: 1.5rem;
+} */
 
 .Azioni{
     position: relative;
@@ -100,5 +118,8 @@ aside{
     }
     .main-icons{
         padding-left: 1rem !important;
+    }
+    .offcanvas{
+        width: 50% !important;
     }
 }
