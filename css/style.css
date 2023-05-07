@@ -16,6 +16,7 @@
     margin-right: 1rem;
 }
 
+
 .full-logo{
     width: 120px;
     height: 45px;
@@ -35,7 +36,7 @@ form{
     background-color: #e5e5e5;
 }
 
-main{
+.main-wrapper{
     width: calc(100% - 75px);
     height: calc(100vh - 70px);
 }
@@ -68,16 +69,6 @@ header input.form-control input{
 }
 
 
-/* .fa-plus::before{
-    position: relative;
-    left: -10px;
-} */
-
-
-/* .fa-plus{
-    font-size: 1.5rem;
-} */
-
 .Azioni{
     position: relative;
     left: 10px;
@@ -89,6 +80,15 @@ header input.form-control input{
 
 .text-grey{
     color: #5b5858;
+}
+
+.upper-main{
+    height: 240px;
+}
+
+.cards-wrapper{
+    overflow-y: scroll;
+    height: calc(100vh - 310px);
 }
 
 aside{
@@ -107,6 +107,17 @@ aside{
 }
 
 /* Soluzioni Responsive */
+
+
+
+@media screen and (min-width:768px) {
+    .upper-main{
+        height: 120px;
+    }
+    .cards-wrapper{
+        height: calc(100vh - 190px);
+    }
+}
 
 
 @media screen and (min-width:992px) {
