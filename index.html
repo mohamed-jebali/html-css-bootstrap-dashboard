@@ -22,7 +22,10 @@
                     <form class="d-flex align-items-center container-fluid" role="search">
                         <img class="mobile-logo d-lg-none" src="./img/mobile-logo.png" alt="Boolean-logo-mobile">
                         <img class="full-logo d-none d-lg-inline-block me-3" src="./img/logo.svg" alt="Boolean-logo-full">
-                        <input class="form-control" type="search" placeholder="Prova a Cercare Lezioni di Laravel" aria-label="Search">
+                        <div class="search-bar px-2">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input class="form-control" type="search" placeholder="Prova a Cercare Lezioni di Laravel" aria-label="Search">
+                        </div>
                         <div class="d-flex gap-4 ps-4">
                             <a href="#" class="d-lg-inline-block d-none">
                                 <i class="fa-solid fa-list-ul text-grey"></i>
@@ -98,7 +101,7 @@
     <section class="container-fluid blue-bg py-3 upper-main">
         <div class="row flex-md-row-reverse align-items-center">
             <div class="col-12 col-md-4 col-lg-3 text-light mb-2 ps-5-lg align-self-start">
-             <span class="pe-3 d-flex align-items-center">
+             <span class="pe-3 d-flex align-items-center add-button">
                  Nuovo Studente
                  <button class="btn blue-bg" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-lg fa-plus btn btn-outline-light"></i></button>
              </span>
@@ -127,7 +130,7 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-4 col-lg-4 ps-5-lg">
+            <div class="col-12 col-md-4 col-lg-4 ps-lg-5">
                 <div class="col-12 text-light mb-2">
                     <span>
                         Studenti online negli ultimi 30 minuti
@@ -210,14 +213,14 @@
     <section class="mx-auto cards-wrapper">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 col-lg-8 my-3">
+                <div class="col-12 col-lg-7 my-3">
                     <div class="card mx-1" style="width:100%;">
                         <div class="card-header mb-2">
                             <span class="fs-4">
                                 Prossime Classi
                             </span>
                         </div>
-                        <table class="table">
+                        <table class="table table-hover px-2">
                             <thead>
                               <tr>
                                 <th scope="col">Nome</th>
@@ -395,7 +398,7 @@
                             </tbody>
                           </table>
                       </div>
-                      <div class="card my-3 mx-1" style="width:100%;">
+                      <div class="card my-3" style="width:100%;">
                         <div class="card-header">
                             <span class="fs-4">
                                 F.A.Q.
@@ -403,17 +406,17 @@
                         </div>
                         <div class="accordion accordion-flush px-3" id="accordionExample">
                             <div class="accordion-item">
-                              <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                  Come aggiungere un nuovo studente
-                                </button>
-                              </h2>
-                              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Clicca sul + in alto sulla selezione blu
+                                <h2 class="accordion-header" id="headingOne">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    Come aggiungere un nuovo studente?
+                                  </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                      Clicca sull'icona del + in alto a destra
+                                  </div>
                                 </div>
                               </div>
-                            </div>
                             <div class="accordion-item">
                               <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -441,7 +444,7 @@
                           </div>
                       </div>
                 </div>
-                <div class="col-12 col-lg-4 my-3">
+                <div class="col-12 col-lg-5 my-3">
                     <div class="card mb-3">
                         <div class="card-header fs-4">
                           Todo
@@ -468,7 +471,7 @@
                                 <h5 class="card-title">Utenti Attivi</h5>
                                 <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
                               </div>
-                              <ul class="list-group list-group-flush">
+                              <ul class="list-group list-group-flush px-0">
                                 <li class="list-group-item">Gennaio: 1200</li>
                                 <li class="list-group-item">Febbraio: 800</li>
                                 <li class="list-group-item">Marzo: 1500</li>
