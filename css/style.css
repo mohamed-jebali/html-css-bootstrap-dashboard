@@ -86,6 +86,14 @@ header input.form-control input{
     background-color: transparent !important;
 }
 
+.table{
+    font-size: 0.7rem;
+}
+
+td{
+    margin-right: 5rem;
+}
+
 .min-width{
     min-width: 100px;
 }
