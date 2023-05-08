@@ -74,8 +74,21 @@ header input.form-control input{
     left: 10px;
 }
 
+table{
+    font-size: 0.65rem;
+}
+
 .form-control::placeholder{
     content: "ff";
+}
+
+.class-avatar{
+    height: 40px;
+    width: 40px;
+}
+
+.min-width{
+    min-width: 100px;
 }
 
 .text-grey{
@@ -132,5 +145,8 @@ aside{
     }
     .offcanvas{
         width: 50% !important;
+    }
+    .upper-main{
+        font-size: 0.75rem;
     }
 }

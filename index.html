@@ -97,14 +97,14 @@
     <!-- UPPER MAIN -->
     <section class="container-fluid blue-bg py-3 upper-main">
         <div class="row flex-md-row-reverse align-items-center">
-            <div class="col-12 col-md-4 col-lg-2 text-light mb-2">
+            <div class="col-12 col-md-4 col-lg-3 text-light mb-2 ps-5-lg align-self-start">
              <span class="pe-3 d-flex align-items-center">
                  Nuovo Studente
-                 <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-lg fa-plus btn btn-outline-light"></i></button>
+                 <button class="btn blue-bg" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-lg fa-plus btn btn-outline-light"></i></button>
              </span>
             </div>
 
-            <div class="col-12 col-md-4 col-lg-6 order-md-1">
+            <div class="col-12 col-md-4 col-lg-5 order-md-1">
                 <div class="col-12 text-light mb-2">
                     <span class="pe-1 fs-4">
                         Boolean
@@ -127,7 +127,7 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-4 col-lg-4">
+            <div class="col-12 col-md-4 col-lg-4 ps-5-lg">
                 <div class="col-12 text-light mb-2">
                     <span>
                         Studenti online negli ultimi 30 minuti
@@ -218,7 +218,7 @@
                             </span>
                         </div>
                         <table class="table">
-                            <thead>
+                            <thead class="text-grey">
                               <tr>
                                 <th scope="col">Nome</th>
                                 <th scope="col">Data di inizio</th>
@@ -232,18 +232,18 @@
                               </tr>
                             </thead>
                             <tbody>
-                              <tr>
-                                <th scope="row"><img class="img-fluid" src="./img/class-avatar.jpg" alt="class-avatar-image">
+                              <tr class="">
+                                <td class="col-lg-7" scope="row"><img class="class-avatar" src="./img/class-avatar.jpg" alt="class-avatar-image">
                                     <span class="px-1 fw-normal">
                                         Classe 75
                                     </span>
-                                </th>
-                                <td>15 Feb 2021</td>
-                                <td>20%</td>
-                                <td>
+                                </td>
+                                <td class="col-lg-1 min-width">15 Feb 2021</td>
+                                <td class="col-lg-1">20%</td>
+                                <td class="col-lg-1">
                                     <span class="badge text-bg-success">Done</span>
                                 </td>
-                                <td>
+                                <td class="col-lg-1 min-width text-grey">
                                     <i class="fa-solid fa-pencil border border-secondary rounded p-2"></i>
                                     <i class="fa-solid fa-trash border border-secondary rounded p-2"></i>
                                    </td>
