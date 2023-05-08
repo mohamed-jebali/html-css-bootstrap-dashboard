@@ -131,6 +131,12 @@ aside{
     width: 10%;
 }
 
+.border-stats{
+    border: 1px solid #e8e8e8;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
 /* Soluzioni Responsive */
 
 
