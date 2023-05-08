@@ -74,9 +74,7 @@ header input.form-control input{
     left: 10px;
 }
 
-table{
-    font-size: 0.65rem;
-}
+
 
 .form-control::placeholder{
     content: "ff";
@@ -85,6 +83,7 @@ table{
 .class-avatar{
     height: 40px;
     width: 40px;
+    background-color: transparent;
 }
 
 .min-width{
@@ -129,6 +128,9 @@ aside{
     }
     .cards-wrapper{
         height: calc(100vh - 190px);
+    }
+    table{
+        font-size: 0.85rem;
     }
 }
 
