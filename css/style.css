@@ -71,7 +71,7 @@ header input.form-control input{
 
 .Azioni{
     position: relative;
-    left: 10px;
+    left: 15px;
 }
 
 
@@ -83,15 +83,16 @@ header input.form-control input{
 .class-avatar{
     height: 40px;
     width: 40px;
-    background-color: transparent !important;
+    border-radius: 50%;
 }
 
-.table{
-    font-size: 0.7rem;
+.classe-75{
+    width: 130px;
+    padding-right: 4rem !important;
 }
 
-td{
-    margin-right: 5rem;
+.first-row-table{
+    background-color: #ececec;
 }
 
 .min-width{
@@ -126,6 +127,10 @@ aside{
     width: 20px;
 }
 
+.width-10{
+    width: 10%;
+}
+
 /* Soluzioni Responsive */
 
 
@@ -139,6 +144,9 @@ aside{
     }
     table{
         font-size: 0.85rem;
+    }
+    .classe-75{
+        width: 300px;
     }
 }
 
@@ -158,5 +166,17 @@ aside{
     }
     .upper-main{
         font-size: 0.75rem;
+    }
+    .classe-75{
+        width: 520px;
+    }
+    table{
+        font-size: 0.7rem;
+    }
+    thead{
+        color: #5b5858;
+    }
+    .first-row-table{
+        background-color: white;
     }
 }
